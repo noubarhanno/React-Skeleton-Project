@@ -1,0 +1,4 @@
+{
+  "presets": [["react-app", { "absoluteRuntime": false }], "@babel/preset-react", "@babel/preset-env"],
+  "plugins": [["module-resolver", { "root": ["./src"] }], "emotion"]
+}
